@@ -7,7 +7,7 @@
   "author": "alextanhongpin",
   "dependencies": {
     "koa": "^2.3.0",
-    "koa-route": "^3.2.0",
+    "koa-router": "^7.2.1",
     "mongodb": "^2.2.31"
   }
 }
