@@ -1,0 +1,13 @@
+{
+  "name": "node-mongo-native",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Simple map-reduce example with native mongodb client",
+  "author": "alextanhongpin",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-route": "^3.2.0",
+    "mongodb": "^2.2.31"
+  }
+}
