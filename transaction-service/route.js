@@ -8,8 +8,11 @@ module.exports = ({ controller }) => {
     prefix: PREFIX
   })
 
-  route.get('/', controller.index)
-  route.get('/:id', controller.fetchOne)
+  route.get('/summary', controller.mapReduce)
+  route.get('/', controller.findMany)
+  route.get('/:id', controller.findOne)
+  route.post('/', controller.createOne)
+  route.delete('/:id', controller.deleteOne)
 
   return route
 }
